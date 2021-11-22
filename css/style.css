@@ -1,0 +1,61 @@
+body{
+    margin-top: 10px;
+}
+.btn {
+    display: block;
+
+  }
+  
+  #female, #male {
+    display: none;
+  } 
+
+  /* add and remove class*/
+  .green-background {
+    background-color: green;
+  }
+  
+  .yellow-background {
+    background-color: yellow;
+  }
+  
+  .red-background {
+    background-color: red;
+  }
+  .blue-background {
+    background-color:blue;
+  }
+  .black-background {
+    background-color:black;
+    
+  }
+  .contain{
+      display: none;
+      max-width: 50%;
+      border: 3px solid grey;
+      width: 15%;
+     background-color: white;
+     float: right;
+margin-top: 2%;
+margin-right: 5px;
+padding-left: 20px;
+
+  }
+  .icon{
+
+   float: right;
+margin-top: 10%;
+margin-right: 10px;
+font-size: 50px;
+cursor: pointer;
+
+}
+h1{
+    text-align: center;
+    border: 3px solid grey;
+    width: 50%;
+    margin: auto;
+}
+input:focus{
+    background-color: darkkhaki;
+}
